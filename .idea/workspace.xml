@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f5086bd-7a2e-4413-bcb6-38c2fbbf9d1c" name="Default" comment="" />
+    <list default="true" id="2f5086bd-7a2e-4413-bcb6-38c2fbbf9d1c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/github_code_challenge.iml" afterPath="$PROJECT_DIR$/github_code_challenge.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/test/testGithubSearchApi.java" afterPath="$PROJECT_DIR$/src/test/java/com/github/test/testGithubSearchApi.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ApiParams.properties" afterPath="$PROJECT_DIR$/src/test/resources/ApiParams.properties" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/test/ApiBase.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/test/ApiBase.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/test/testGithubSearchApi.class" afterPath="$PROJECT_DIR$/target/test-classes/com/github/test/testGithubSearchApi.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +23,61 @@
     <SUITE FILE_PATH="coverage/github_code_challenge$testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name_With_Specific_Language_Sort_Order_PageNumber_And_PerPageList.coverage" NAME="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language_Sort_Order_PageNumber_And_PerPageList Coverage Results" MODIFIED="1536890102608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.github.test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/github_code_challenge$testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name.coverage" NAME="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name Coverage Results" MODIFIED="1536889517789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/github_code_challenge$testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name.coverage" NAME="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name Coverage Results" MODIFIED="1536899622950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.github.test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/github_code_challenge$testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name_With_Specific_Language.coverage" NAME="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language Coverage Results" MODIFIED="1536889696137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/github_code_challenge$testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name_With_Specific_Language.coverage" NAME="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language Coverage Results" MODIFIED="1536898254334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.github.test.*</FILTER>
     </SUITE>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="github_code_challenge" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ApiParams.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/ApiParams.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testGithubSearchApi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/test/testGithubSearchApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reader/IReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reader/ReadProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,6 +86,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -47,22 +104,22 @@
         <option value="$PROJECT_DIR$/src/main/java/helper/GetRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/helper/HttpAsyncClientHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/test/testGithubApps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Services/ApiServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/Services/ResourceUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reader/IReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reader/ReadProperties.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/github/test/ApiBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/ApiParams.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/test/testGithubSearchApi.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/github/test/ApiBase.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="460" />
+    <option name="x" value="365" />
     <option name="y" value="23" />
-    <option name="width" value="2041" />
-    <option name="height" value="1337" />
+    <option name="width" value="2144" />
+    <option name="height" value="1343" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -79,7 +136,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,9 +212,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -176,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language_Sort_Order_PageNumber_And_PerPageList">
+  <component name="RunManager" selected="JUnit.testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -340,9 +397,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language_Sort_Order_PageNumber_And_PerPageList" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language_Sort_Order_PageNumber_And_PerPageList" />
       </list>
     </recent_temporary>
   </component>
@@ -363,61 +420,65 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 20h 12m 17s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 17m 14s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 20h 32m 58s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 22m 51s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 20h 37m 08s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 23m 07s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 20h 41m 00s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 23m 34s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 20h 41m 55s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 24m 01s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 20h 42m 31s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 25m 44s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 20h 45m 20s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 29m 26s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name_With_Specific_Language - 2018.09.13 at 20h 48m 18s.xml">
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 29m 49s.xml">
+      <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name - 2018.09.13 at 23h 33m 46s.xml">
+      <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name_With_Specific_Language - 2018.09.13 at 23h 10m 57s.xml">
       <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testGithubSearchApi_Api_Search_Repositories_Thru_Author_Name_With_Specific_Language_Sort_Order_PageNumber_And_PerPageList - 2018.09.13 at 20h 55m 05s.xml">
-      <configuration name="testGithubSearchApi.Api_Search_Repositories_Thru_Author_Name_With_Specific_Language_Sort_Order_PageNumber_And_PerPageList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="460" y="23" width="2041" height="1337" extended-state="0" />
+    <frame x="365" y="23" width="2144" height="1343" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930756" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966483" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53061223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25325325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15706806" sideWeight="0.4952381" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Google Cloud Storage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863947" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22047244" sideWeight="0.50476193" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -431,7 +492,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/github/test/testGithubSearchApi.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -454,94 +523,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/ResponseBody.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ResponseBody.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/helper/GetRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/helper/HttpAsyncClientHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/test/ApiBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helper/GetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3216">
-          <caret line="134" column="1" lean-forward="true" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helper/HttpAsyncClientHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2806">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ApiParams.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="408">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reader/IReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reader/ReadProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
-          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1682#1683#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Services/ApiServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,20 +552,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/test/ApiBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Services/ApiServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reader/IReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reader/ReadProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ApiParams.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/github/test/testGithubSearchApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="864">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

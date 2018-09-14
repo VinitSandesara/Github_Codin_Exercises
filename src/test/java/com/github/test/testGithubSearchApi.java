@@ -1,8 +1,9 @@
 package com.github.test;
 
 import io.restassured.http.ContentType;
+import org.apache.http.HttpStatus;
 import org.junit.Test;
-
+import static org.hamcrest.Matchers.*;
 import java.io.UnsupportedEncodingException;
 import java.net.URISyntaxException;
 import java.net.URLDecoder;
@@ -16,15 +17,22 @@ public class testGithubSearchApi extends ApiBase {
     @Test
     public void Api_Search_Repositories_Thru_Author_Name() throws UnsupportedEncodingException {
 
-        String JsonResponse = given()
+        String value = getReader().getAuthorName();
+
+                given()
                 .accept(ContentType.JSON)
                 .param("q", getReader().getAuthorName())
                 .when()
                 .get(getReader().getSearchApiEndPoint())
-                .thenReturn()
-                .asString();
+                .then()
+                .assertThat()
+           // Validating response has status code 200
+                .statusCode(HttpStatus.SC_OK)
+                .and()
+                .assertThat()
+           // Validating total_count value is 4390
+                .body("total_count",is(4390));
 
-        System.out.println("Api Response with given author name  :--->" + JsonResponse);
 
     }
 
@@ -41,8 +49,9 @@ public class testGithubSearchApi extends ApiBase {
                 .thenReturn()
                 .asString();
 
-        System.out.println("Api Response with given author name plus language :--->" + JsonResponse);
-
+        System.out.println("\n ========================  STARTING ========================= \n");
+        System.out.println("Api Response with given author name  :---> \n " + JsonResponse);
+        System.out.println("\n ========================  ENDING ========================= \n");
     }
 
     @Test
@@ -57,7 +66,10 @@ public class testGithubSearchApi extends ApiBase {
                 .thenReturn()
                 .asString();
 
-        System.out.println("Api Response with given author name plus language and Sort :--->" + JsonResponse);
+        System.out.println("\n ========================  STARTING ========================= \n");
+        System.out.println("Api Response with given author name  :---> \n " + JsonResponse);
+        System.out.println("\n ========================  ENDING ========================= \n");
+
     }
 
     @Test
@@ -72,8 +84,9 @@ public class testGithubSearchApi extends ApiBase {
                 .get(getReader().getSearchApiEndPoint())
                 .thenReturn()
                 .asString();
-
+        System.out.println("\n ========================  STARTING ========================= \n");
         System.out.println("Api Response with given author name plus language, Sort and Order :--->" + JsonResponse);
+        System.out.println("\n ========================  ENDING ========================= \n");
     }
 
     @Test
@@ -90,7 +103,9 @@ public class testGithubSearchApi extends ApiBase {
                 .thenReturn()
                 .asString();
 
+        System.out.println("\n ========================  STARTING ========================= \n");
         System.out.println("Api Response with given author name plus language, Sort, Order and given page number :--->" + JsonResponse);
+        System.out.println("\n ========================  ENDING ========================= \n");
     }
 
     @Test
@@ -107,7 +122,9 @@ public class testGithubSearchApi extends ApiBase {
                 .thenReturn()
                 .asString();
 
+        System.out.println("\n ========================  STARTING ========================= \n");
         System.out.println("Api Response with given author name plus language, Sort, Order and given page number with per page list :--->" + JsonResponse);
+        System.out.println("\n ========================  ENDING ========================= \n");
     }
 
 

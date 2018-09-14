@@ -8,6 +8,34 @@
     <artifactId>github_code_challenge</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.21.0</version>
+                <executions>
+                    <execution>
+                        <id>testngtest</id>
+                        <phase>test</phase>
+                    </execution>
+                </executions>
+                <configuration>
+
+                    <forkCount>3</forkCount> <!-- how many parallel vm get created and execute -->
+                    <reuseForks>false</reuseForks><!-- Every it will create a new vm for
+						the execution and will not use any existing -->
+                    <testFailureIgnore>true</testFailureIgnore><!-- The execution will continue
+						even if there is a test failure -->
+                    <suiteXmlFiles>
+                        <!-- <suiteXmlFile>${testngxml.location}/testng.xml</suiteXmlFile> -->
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
 
         <dependency>
